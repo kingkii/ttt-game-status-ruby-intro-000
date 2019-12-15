@@ -54,6 +54,7 @@ WIN_COMBINATIONS = [
       return FALSE
     end
   end
-  
+  def over?(board)
+    if full?(board) || won?(board) || draw?(board)
 
   
