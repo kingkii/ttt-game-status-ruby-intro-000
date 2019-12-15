@@ -44,6 +44,7 @@ WIN_COMBINATIONS = [
         return FALSE
       end
     end
+    return true
   end
   
 
