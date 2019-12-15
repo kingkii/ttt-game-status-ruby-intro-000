@@ -52,6 +52,8 @@ WIN_COMBINATIONS = [
       return  true
     else
       return FALSE
+    end
+  end
   
 
   
