@@ -17,7 +17,13 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board_array)
-  WIN_COMBINATIONS.each do |win_combination|
+  WIN_COMBINATIONS.each do |combo_arr|
+    first_index = combo_arr[0]
+    second_index = combo_arr[1]
+    third_index = combo_arr[2]
+    
+    
+    
     win_index_1 = WIN_COMBINATIONS[0]
     win_index_2 = WIN_COMBINATIONS[1]
     win_index_3 = WIN_COMBINATIONS[2]
@@ -35,6 +41,8 @@ WIN_COMBINATIONS = [
     position_6 = board[win_index_6]
     position_7 = board[win_index_7]
     position_8 = board[win_index_8]
+    
+    if position_1 == position_2 && position_2 ==position_3
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_combinations
