@@ -41,7 +41,7 @@ WIN_COMBINATIONS = [
   def full?(board)
     board.each do |symbol|
       if symbol == "  "
-        return false
+        return FALSE
       end
     end
   end
