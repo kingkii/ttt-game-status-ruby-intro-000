@@ -18,8 +18,8 @@ WIN_COMBINATIONS = [
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = WIN_COMBINATIONS[0]
     win_index_2 = WIN_COMBINATIONS[1]
-    win_index_3 = win_combinations[2]
-    win_index_4 = win_combinations[3]
+    win_index_3 = WIN_COMBINATIONS[2]
+    win_index_4 = WIN_COMBINATIONS[3]
     win_index_5 = win_combinations[4]
     win_index_6 = win_combinations[5]
     win_index_7 = win_combinations[6]
