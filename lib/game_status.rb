@@ -66,5 +66,9 @@ WIN_COMBINATIONS = [
       arr_winning_combination = won?(board)
       index = arr_winning_combination[0]
       return board[index]
+    else
+      return nil
+    end
+  end
 
   
