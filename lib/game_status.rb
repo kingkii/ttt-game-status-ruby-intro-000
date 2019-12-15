@@ -47,5 +47,11 @@ WIN_COMBINATIONS = [
     return true
   end
   
+  def draw?(board)
+    if full?(board) &&  !won?(board)
+      return  true
+    else
+      return FALSE
+  
 
   
