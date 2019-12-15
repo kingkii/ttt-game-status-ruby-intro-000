@@ -63,6 +63,6 @@ WIN_COMBINATIONS = [
   end
   def winner(board)
     if won?(board)
-      
+      arr_winning_combination = won?(board)
 
   
