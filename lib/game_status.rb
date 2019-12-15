@@ -28,7 +28,7 @@ WIN_COMBINATIONS = [
     position_3 = board[third_index]
    
     
-    if position_1 == position_2 && position_2 ==position_3 && position_1 != " "
+    if position_1 == position_2 && position_2 == position_3 && position_1 != " "
       return combo_arr
 
     end
