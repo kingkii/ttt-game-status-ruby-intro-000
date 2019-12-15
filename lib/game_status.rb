@@ -42,6 +42,6 @@ WIN_COMBINATIONS = [
     board.each do |symbol|
       if symbol == "  "
         return false
-      end
+  
 
   
